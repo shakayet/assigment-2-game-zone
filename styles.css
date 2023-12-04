@@ -5,6 +5,22 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    border-radius: 40px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    padding: 15px 30px;
+    border: 0;
+}
+
+.btn-secondary {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 15px 30px;
+    border: 0;
+}
+
+/* Nav bar start */
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -29,14 +45,15 @@ body {
     font-weight: 700;
 }
 
-.G{
+.G {
     color: #F948B2;
     font-size: 50px;
 }
 
-.nav-items{
+.nav-items {
     padding-top: 15px;
 }
+
 .nav-items ul {
     display: flex;
     gap: 30px;
@@ -64,25 +81,103 @@ body {
     height: 25px;
 }
 
-.nav-gamer:hover{
+.nav-gamer:hover {
     cursor: pointer;
     border: 1px solid #bb98ad;
     border-radius: 30px;
 }
 
-.nav-items li:hover{
+.nav-items li:hover {
     cursor: pointer;
     border: 1px solid #bb98ad;
     border-radius: 30px;
 }
 
-.nav-items .follow-us li:hover{
+.nav-items .follow-us li:hover {
     cursor: pointer;
     border: none;
 }
 
-.follow-us:hover{
+.follow-us:hover {
     cursor: pointer;
     border: 1px solid #bb98ad;
     border-radius: 30px;
+}
+
+/* main part start from here */
+
+.goat {
+    display: flex;
+}
+
+.goat-play-like {
+    width: 50%;
+    /* padding-left: 120px; */
+    padding-top: 100px;
+}
+
+.goat-play-like h2 {
+    color: #0B0223;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: Work Sans;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.goat-play-like h1 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.goat-img {
+    width: 50%;
+    padding-right: 120px;
+}
+
+.goat-img img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.goat-box {
+    justify-content: center;
+    padding-left: 130px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.goat-box img {
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.goat-box small {
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.goat-box-1 {
+    padding-bottom: 15px;
+}
+
+.goat-box-2 {
+    padding-bottom: 15px;
+}
+
+.button{
+    margin-left: 120px;
+    margin-top: 50px;
+    gap: 24px;
 }
