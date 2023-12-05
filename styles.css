@@ -217,6 +217,8 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+/* Online game start from here */
+
 .online-game-description {
     margin-top: 100px;
     text-align: center;
@@ -254,10 +256,23 @@ body {
     top: -230px;
     left: 800px;
     opacity: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hidden p{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .hidden:hover {
     opacity: 1;
+}
+
+.online-game-box-3 img:hover{
+    border: 5px solid tomato;
+    opacity: 0.5;
 }
 
 /* Play instantly section start */
@@ -313,6 +328,15 @@ body {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
     margin-left: 120px;
     margin-right: 120px;
+}
+
+.five-game-box:hover {
+    border: 1px solid tomato;
+    border-radius: 30%;
+}
+.four-game-box:hover {
+    border: 1px solid tomato;
+    border-radius: 30%;
 }
 
 .five-game {
