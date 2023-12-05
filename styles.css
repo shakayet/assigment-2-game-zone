@@ -355,4 +355,19 @@ body {
         order: 2;
         text-align: center;
     }
+    .online-game-img {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+    }
+
+    .online-game-img p {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
 }
