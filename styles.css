@@ -291,7 +291,7 @@ body {
     height: 450px;
 }
 
-.side-photo img{
+.side-photo img {
     width: 200px;
     height: 240px;
     position: relative;
@@ -299,14 +299,58 @@ body {
     right: 90px;
 }
 
-.play-instantly-content h2{
+.play-instantly-content h2 {
     font-size: 48px;
     font-weight: 700;
 }
 
 
+/* Different game section start from here */
+
+.different-game {
+    margin-top: 50px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.five-game {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.four-game {
+    display: flex;
+    justify-content: space-around;
+}
+
+.five-game-box {
+    display: flex;
+}
+
+.five-game-box p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.four-game-box {
+    display: flex;
+}
+
+.four-game-box p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
+
+/* footer startb from here */
 
 
 /* Responsive For Mobile */
@@ -431,26 +475,63 @@ body {
         padding-top: 40px;
         order: 1;
     }
+
     .play-instantly-img {
         width: 100%;
         order: 2;
         padding-left: 40px;
     }
+
     .main-photo img {
         width: 234.833px;
         height: 250px;
     }
-    
-    .side-photo img{
+
+    .side-photo img {
         width: 140px;
         height: 140px;
         position: relative;
         bottom: 100px;
         right: 50px;
     }
-    .play-instantly-content h2{
+
+    .play-instantly-content h2 {
         font-size: 30px;
         font-weight: 600;
+    }
+    .different-game {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .five-game{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 0;
+    }
+    .five-game img{
+        height: 35px;
+        width: 35px;
+    }
+    .five-game-box p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .four-game{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .four-game img{
+        height: 35px;
+        width: 35px;
+    }
+    .four-game-box p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #special-box{
+        position: relative;
+        bottom: 119px;
+        left: 200px;
     }
 
 }
