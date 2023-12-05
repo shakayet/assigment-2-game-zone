@@ -352,6 +352,63 @@ body {
 
 /* footer startb from here */
 
+.footer{
+    background: #0B0223;
+    padding-top: 120px;
+}
+.footer-gamer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-gamer img{
+    padding-top: 30px;
+    height: 40px;
+    width: 60px;
+}
+.footer-gamer h2{
+    color: #FFF;
+}
+.footer-item ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: #FFF;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.footer-term-condition{
+    display: flex;
+    color: #FFF;
+    padding-top: 50px;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 12px;
+    font-weight: 200;
+}
+.copyright{
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
 
 /* Responsive For Mobile */
 
@@ -532,6 +589,39 @@ body {
         position: relative;
         bottom: 119px;
         left: 200px;
+    }
+
+    .footer{
+        margin-top: 20px;
+    }
+    .footer-gamer img{
+        height: 35px;
+        width: 50px;
+    }
+    .footer-item ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 50px;
+        padding-left: 20%;
+        padding-right: 20%;
+        gap: 30px;
+    }
+    .footer-icons img{
+        height: 30px;
+        width: 30px;
+    }
+    .footer-term-condition{
+        justify-content: space-between;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 12px;
+        font-weight: 200;
     }
 
 }
