@@ -6,7 +6,7 @@ body {
 }
 
 .btn-primary {
-    border-radius: 40px;
+    border-radius: 30px;
     /* background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%)); */
     background: #F948B2;
     padding: 15px 30px;
@@ -15,7 +15,7 @@ body {
 }
 
 .btn-secondary {
-    border-radius: 48px;
+    border-radius: 40px;
     background: #4EC5F7;
     /* background: lightgreen; */
     padding: 15px 30px;
@@ -181,8 +181,133 @@ body {
     padding-bottom: 15px;
 }
 
-.button{
+.button {
     margin-left: 120px;
     margin-top: 50px;
     gap: 24px;
+}
+
+/* we are gamer section */
+
+.we-are-gamer{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 120px;
+}
+
+.we-are-gamer-img img{
+    width: 100%;
+}
+.we-are-gamer-img{
+    width: 50%;
+}
+
+.we-are-gamer-element{
+    width: 50%;
+    text-align: right;
+}
+
+.we-are-gamer-element h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* Responsive For Mobile */
+
+@media screen and (max-width: 576px) {
+    .nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .nav-gamer {
+        justify-content: center;
+    }
+
+    .follow-us {
+        display: flex;
+    }
+
+    .goat {
+        flex-direction: column;
+    }
+
+    .goat-play-like {
+        width: 100%;
+        padding-top: 100px;
+        order: 2;
+    }
+
+    .goat-play-like h2 {
+        font-weight: 400;
+        font-size: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .goat-play-like h1 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .goat-img {
+        width: 100%;
+        padding-right: 10px;
+        order: 1;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+
+    .goat-box {
+        padding-left: 40px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .button {
+        display: flex;
+        gap: 15px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .we-are-gamer{
+        flex-direction: column;
+        margin-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .we-are-gamer-img{
+        width: 100%;
+        order: 1;
+    }
+
+    .we-are-gamer-img img{
+        width: 100%;
+    }
+
+    .we-are-gamer-element{
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
 }
